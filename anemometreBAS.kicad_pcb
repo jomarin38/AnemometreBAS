@@ -642,6 +642,11 @@
       (net 24 "unconnected-(XA1-PadRST)") (pinfunction "RESET") (pintype "open_collector") (tstamp 0ceef4c0-1081-4e21-b370-88a8d72ec333))
     (pad "VIN" thru_hole circle (at 22.4248 0.09) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 5 "VIN") (pinfunction "VIN") (pintype "power_in") (tstamp 0e3aa148-4292-4380-9408-1e897be8da4f))
+    (model "${KIPRJMOD}/arduino-mkr-1310-1.snapshot.4/MKRWAN1310V3.0Blue.step"
+      (offset (xyz -115.5 95 5.5))
+      (scale (xyz 0.99 1 0.99))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" (layer "F.Cu")
