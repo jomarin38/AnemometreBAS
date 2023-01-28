@@ -917,9 +917,19 @@
     (pad "VIN" thru_hole circle (at 22.4248 0.09) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 5 "VIN") (pinfunction "VIN") (pintype "power_in") (tstamp 0e3aa148-4292-4380-9408-1e897be8da4f))
     (model "${KIPRJMOD}/arduino-mkr-1310-1.snapshot.4/MKRWAN1310V3.0Blue.step"
-      (offset (xyz -115.5 95 5.5))
+      (offset (xyz -115.5 95 7))
       (scale (xyz 0.99 1 0.99))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/arduino-mkr-1310-1.snapshot.4/PinSocket_1x14_P2.54mm_Vertical001.step"
+      (offset (xyz 53 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
+    (model "${KIPRJMOD}/arduino-mkr-1310-1.snapshot.4/PinSocket_1x14_P2.54mm_Vertical001.step"
+      (offset (xyz 53 -20.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
