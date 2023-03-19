@@ -1261,7 +1261,7 @@
     (uuid 7d74f531-c792-4beb-b3ab-45711ef608ce)
     (property "Reference" "J6" (id 0) (at 56.515 120.65 0))
     (property "Value" "Power" (id 1) (at 56.515 123.19 0))
-    (property "Footprint" "" (id 2) (at 55.88 125.73 0)
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (id 2) (at 55.88 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 55.88 125.73 0)
@@ -1504,7 +1504,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
     )
     (path "/7d74f531-c792-4beb-b3ab-45711ef608ce"
-      (reference "J6") (unit 1) (value "Power") (footprint "")
+      (reference "J6") (unit 1) (value "Power") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/3c744949-20c9-495f-819b-b231fc469afd"
       (reference "PANNEAU1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
