@@ -62,8 +62,8 @@ void setup() {
   // 'MKRWANFWUpdate_standalone.ino'
   //
 
-  appEui = "";
-  appKey = "";
+  appEui = "TODO: ENTER APPEUI HERE";
+  appKey = "TODO: ENTER APPKEY HERE";
   Serial.begin(115200);
   appKey.trim();
   appEui.trim();
